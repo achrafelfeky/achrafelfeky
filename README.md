@@ -41,10 +41,10 @@
 
 ## 📂 Projects
 
-### 1️⃣ [EduLibrary](https://github.com/achrafelfeky/Library)  
-Educational Learning Platform  This project is a Django-based Learning Platform that allows students and instructors to interact through courses, lessons, and assignments. It includes features like course subscriptions, notifications for new lessons, automatic assignment submission deadlines
+### 1️⃣ [EduLibrary](https://github.com/achrafelfeky/EduLibrary)  
+Educational Learning Platform  This project is a Django-based Learning Platform that allows students and instructors to interact through courses, lessons, and assignments. It includes features like course subscriptions, notifications for new lessons, automatic assignment submission deadlines,
 
-**Technologies:** Python, Flask, SQLAlchemy, SQLite, CSS, HTML 
+**Technologies:** Python, Django, SQLAlchemy, SQLite, CSS, HTML 
 
 
 
