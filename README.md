@@ -66,9 +66,57 @@ Key Features:
 
 --------------------------------------------------------------------------------
 ### 2️⃣ [ProTrack](https://github.com/achrafelfeky/ProTrack)  
-Project Management & Task Tracking System (Django REST Framework) — A backend system for managing projects, tasks, and team members with role-based permissions, activity logging, comments, and smart notifications. Includes a dashboard for managers to assign and track tasks, with full caching for high performance.asks
+🧠 Project: Project Management & Task Workflow System (Django REST Framework)
 
-**Technologies :** Python, Flask, SQLAlchemy, JWT, SQLite, REST API
+🔹 Description:
+A powerful backend system built with Django REST Framework for managing projects, tasks, and team collaboration with role-based access control, token authentication, and smart notifications.
+
+⚙️ Key Features:
+
+👥 Role-Based Member Management:
+Managers can add members to projects with different roles (Manager,Memeber ).
+Each role defines what actions a user can perform (view, edit, comment, or manage).
+
+📊 Dynamic Dashboard:
+Every user has a personalized dashboard showing only their assigned tasks, while managers see all project activities and team progress.
+
+🗂️ Task Assignment System:
+Managers can assign tasks to one or multiple members.
+Members can view and work only on their assigned tasks and add related content or comments.
+
+🔐 Token-Based Authentication:
+Secure API access with JWT or Token Authentication for all requests.
+
+🔔 Smart Notification System:
+
+When a user is added to a project, they receive a notification.
+
+When assigned a new task, an in-site and email notification is sent.
+
+Upon task completion, it’s automatically sent to the manager for review (approve / reject / request changes).
+
+Notifications are sent for approval decisions.
+
+Tasks include a deadline, with alerts:
+
+Before the due date
+
+On the due date
+
+If overdue → task is automatically marked as expired and locked from further edits.
+
+🧾 Activity Log & Status Tracking:
+Every important event (assignment, submission, approval, or rejection) is recorded in the ActivityLog for auditing and transparency.
+
+🏁 Result:
+
+A scalable and secure project management API with automated workflows, advanced permissions, and intelligent notifications — enabling smooth collaboration between managers and team members.assign and track tasks, with full caching for high performance.asks
+
+🛠️ Tech Stack & Tools:
+
+Django REST Framework, Django ORM, Token Authentication, Signals, Caching, Custom Permissions, Serializers, Postman, Email Notifications, ActivityLog System
+
+
 
 
 
