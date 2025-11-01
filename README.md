@@ -69,7 +69,7 @@ Key Features:
 🧠 Project: Project Management & Task Workflow System (Django REST Framework)
 
 🔹 Description:
-A powerful backend system built with Django REST Framework for managing projects, tasks, and team collaboration with role-based access control, token authentication, and smart notifications.
+A powerful backend system built with Django REST Framework for managing projects, tasks, and team collaboration with role-based access control, token authentication, and smart notifications.Implemented extensive testing for all modules to ensure stability and correctness.
 
 ⚙️ Key Features:
 
@@ -108,13 +108,14 @@ If overdue → task is automatically marked as expired and locked from further e
 🧾 Activity Log & Status Tracking:
 Every important event (assignment, submission, approval, or rejection) is recorded in the ActivityLog for auditing and transparency.
 
+
 🏁 Result:
 
 A scalable and secure project management API with automated workflows, advanced permissions, and intelligent notifications — enabling smooth collaboration between managers and team members.assign and track tasks, with full caching for high performance.asks
 
 🛠️ Tech Stack & Tools:
 
-Django REST Framework, Django ORM, Token Authentication, Signals, Caching, Custom Permissions, Serializers, Postman, Email Notifications, ActivityLog System
+Django REST Framework, Django ORM, Token Authentication, Signals, Caching, Custom Permissions, Serializers, Postman, Email Notifications, ActivityLog System, Unit Tests
 
 
 
