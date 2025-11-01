@@ -66,7 +66,7 @@ Key Features:
 
 --------------------------------------------------------------------------------
 ### 2️⃣ [ProTrack](https://github.com/achrafelfeky/ProTrack)  
-A Django REST Framework based backend system for managing projects, tasks, and team members with role-based permissions, smart notifications, and full caching for high performance. It allows managers to assign and track tasks
+Project Management & Task Tracking System (Django REST Framework) — A backend system for managing projects, tasks, and team members with role-based permissions, activity logging, comments, and smart notifications. Includes a dashboard for managers to assign and track tasks, with full caching for high performance.asks
 
 **Technologies :** Python, Flask, SQLAlchemy, JWT, SQLite, REST API
 
